@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import { Menu, Icon } from 'antd';
+import './index.less'
 let navData=[
   {name:'首页',path:'/home'},
   {name:'设置',path:'/setting'},
